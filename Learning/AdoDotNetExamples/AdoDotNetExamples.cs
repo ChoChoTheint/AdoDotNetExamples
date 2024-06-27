@@ -226,8 +226,7 @@ namespace Learning.AdoDotNetExamples
             sqlConnectionStringBuilder.UserID = "sa";
             sqlConnectionStringBuilder.Password = "sasa";
             string connectionString = sqlConnectionStringBuilder.ToString();
-            Console.WriteLine("connnection => " + connectionString);
-
+           
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
