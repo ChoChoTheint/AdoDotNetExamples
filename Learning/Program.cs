@@ -12,18 +12,33 @@ using System.Data.SqlClient;
 //adoDotNetExamples.Delete("1");
 
 
-//DapperExamples dapperExamples = new DapperExamples();
+DapperExamples dapperExamples = new DapperExamples();
 //dapperExamples.Edit(2);
 //dapperExamples.Create(4,"Testing 4", "Testing 4", "Testing 4");
 //dapperExamples.Update(4, "Testing 4 update", "Testing 4 update", "Testing 4 update");
-//dapperExamples.Read();
+dapperExamples.Read();
 //dapperExamples.Delete(2);
 
-EFCoreExamples eFCoreExamples = new EFCoreExamples();
-eFCoreExamples.Read();
+//EFCoreExamples eFCoreExamples = new EFCoreExamples();
+//eFCoreExamples.Read();
 //eFCoreExamples.Edit(3);
 //eFCoreExamples.Create(5, "Testing 5", "Testing 5", "Testing 5");
 //eFCoreExamples.Update(5, "Testing 5 ", "Testing 5 ", "Testing 5 ");
-eFCoreExamples.Delete(5);
-Console.ReadKey();
-    
+//eFCoreExamples.Delete(5);
+
+//HttpClientExamples httpClientExamples = new HttpClientExamples();
+//await httpClientExamples.Run();
+//Console.ReadKey();
+
+
+//namespace Learning.HttpClientExamples
+//{
+//    class Program
+//    {
+//        static async Task Main(string[] args)
+//        {
+//            HttpClientExamples examples = new HttpClientExamples();
+//            await examples.Run();
+//        }
+//    }
+//}
